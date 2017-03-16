@@ -95,8 +95,6 @@ namespace PersonalNotes
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2(null, null, null, null, this, comboBox1.Text);
-            f2.Show();
             this.Hide();
         }
     }
