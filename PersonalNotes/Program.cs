@@ -5,6 +5,13 @@ using System.Windows.Forms;
 
 namespace PersonalNotes
 {
+    //static class DataTransfer
+    //{
+    //    public static string v1 { get; set; }
+    //    public static string v4 { get; set; }
+    //    public static string v5 { get; set; }
+    //}
+
     static class Program
     {
         /// <summary>

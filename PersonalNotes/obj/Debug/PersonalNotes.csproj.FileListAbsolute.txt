@@ -39,3 +39,4 @@ E:\C#\PNM\PersonalNotes\obj\Debug\PersonalNotes.csproj.GenerateResource.Cache
 E:\C#\PNM\PersonalNotes\bin\Debug\PersonalNotes.exe
 E:\C#\PNM\PersonalNotes\bin\Debug\PersonalNotes.pdb
 E:\C#\PNM\PersonalNotes\obj\Debug\PersonalNotes.Form4.resources
+E:\C#\PNM\PersonalNotes\obj\Debug\PersonalNotes.Form5.resources

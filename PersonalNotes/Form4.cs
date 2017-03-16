@@ -44,6 +44,7 @@ namespace PersonalNotes
                 comboBox1.Items.Add(catName);
                 doc2.Element("root").Add(
                     new XElement("note",
+                    new XAttribute("name", catName),
                     new XAttribute("category", catName)));
                 doc2.Save(path2);
 
@@ -89,7 +90,8 @@ namespace PersonalNotes
 
         private void button2_Click(object sender, EventArgs e) // select category
         {
-            Form2 f2 = new Form2(null, null, this, comboBox1.Text);
+            Form2 f2 = new Form2(null, null, this, comboBox1.Text, null, null);
+            f2.Show();
             this.Hide();
         }
     }
