@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <note name="test" category="test" theme="test" value="test" />
-  <note category="yet" />
-  <note theme="ttt" />
-  <note theme="ewewew" />
+  <note name="test2" category="test2" theme="test2" value="test2" />
+  <note name="test3" category="test3" theme="test3" value="test3" />
+  <note name="test4" category="test4" theme="test4" value="test4" />
 </root>

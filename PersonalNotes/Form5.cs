@@ -88,15 +88,13 @@ namespace PersonalNotes
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string themeName = this.comboBox2.SelectedItem.ToString();
-            var f = from x in doc2.Element("root").Elements("note")
-                    select x.Attribute("theme").Value;
+            //string themeName = this.comboBox2.SelectedItem.ToString();
+            //var f = from x in doc2.Element("root").Elements("note")
+                    //select x.Attribute("theme").Value;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2(null, null, null, null, this, comboBox1.Text);
-            f2.Show();
             this.Hide();
         }
     }

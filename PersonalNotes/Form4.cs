@@ -90,8 +90,6 @@ namespace PersonalNotes
 
         private void button2_Click(object sender, EventArgs e) // select category
         {
-            Form2 f2 = new Form2(null, null, this, comboBox1.Text, null, null);
-            f2.Show();
             this.Hide();
         }
     }
