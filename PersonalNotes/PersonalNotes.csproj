@@ -136,7 +136,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data.xml" />
+    <Content Include="data.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="notes.xml" />
   </ItemGroup>
   <ItemGroup>
